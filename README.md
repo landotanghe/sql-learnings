@@ -26,3 +26,8 @@ rowstore(for OLTP, transactional)  vs columnstore (for OLAP, analytic workloads)
 
 to see what is going on:
 set statistics **IO, time** ON
+
+**statistics** 
+- used for where and order by, not for select
+- created automatically for your indexes
+- 
